@@ -1,14 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-export default function BigOrderButton () {
+type tBigOrderButton = {
+  className?: string
+}
 
-  const clickFunction = () => {
-    console.log('OrderButton Clicked')
-  }
-
-  return(
+export default function BigOrderButton({ className }: tBigOrderButton) {
+  return (
     <button
-    className="text3 bg-Highlight h-12 shadow-md rounded-md relative hover:bottom-1"
+      className={`text3 bg-Highlight h-12 shadow-md rounded-md relative hover:bottom-1 ${className}`}
     >
       Fazer Pedido
     </button>

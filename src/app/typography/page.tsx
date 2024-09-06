@@ -18,6 +18,12 @@ export default function Typography(){
     <p className="text5">
       testando tipografia tailwind text5
     </p>
+    <p className="text6">
+      testando tipografia tailwind text6
+    </p>
+    <p className="text7">
+      testando tipografia tailwind text7
+    </p>
   </section>
   )
 }

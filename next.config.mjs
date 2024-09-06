@@ -2,7 +2,13 @@
 const nextConfig = {
 
   images: {
-    domains: ['cdn.autopapo.com.br'],
+    domains: [],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
   },
 
 };
