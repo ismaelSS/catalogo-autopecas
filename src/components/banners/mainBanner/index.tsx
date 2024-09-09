@@ -7,7 +7,7 @@ export default function MainBanner() {
     <section className="bg-main1 p-4 flex justify-between items-center">
       <div className="w-[40%] flex flex-col gap-3">
         <h1 className="text1 animate-fadeIn animate-slideInTop">
-          Ellen autopeças Excelência em servir você.
+          Silva autopeças Excelência em servir você.
         </h1>
 
         <p className="text4 animate-slideInTop delay-[2000ms]">

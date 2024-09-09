@@ -1,8 +1,8 @@
 import MainBanner from '@/components/banners/mainBanner'
 import BrandsCarousel from '@/components/bradsCarousel'
 import CustomHeader from '@/components/header'
+import PersonFooter from '@/components/personFooter'
 import Showcase from '@/components/showcase'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <MainBanner />
       <BrandsCarousel />
       <Showcase />
+      <PersonFooter/>
     </main>
   )
 }

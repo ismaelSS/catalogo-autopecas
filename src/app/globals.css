@@ -41,7 +41,10 @@
     @apply text-xs text-text1 font-bold;
   }
   .text10 {
-    @apply text-sm text-text5 font-semibold
+    @apply text-sm text-text5 font-semibold;
+  }
+  .text11 {
+    @apply text-sm font-light text-text3;
   }
 
 }
@@ -77,4 +80,21 @@
 /* Outras opções de personalização, caso necessário */
 *::-webkit-scrollbar-corner {
   background-color: transparent; /* Define a cor da área onde as barras de rolagem se encontram */
+}
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+input {
+  all: unset;
+  box-sizing: border-box;
+  appearance: none;
+  outline: none;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit; /* Herda as propriedades da fonte */
 }

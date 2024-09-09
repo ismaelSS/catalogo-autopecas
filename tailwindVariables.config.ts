@@ -16,8 +16,10 @@ const tailwindVariables = {
 
     pressable1: "#a1a1aa",
   },
-
-  typography: {},
+  screens: {
+    w1131: '1131px',
+    w410: '410px'
+  }
 };
 
 export default tailwindVariables;

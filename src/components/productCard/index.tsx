@@ -38,7 +38,7 @@ export default function ProductCard({
   }
 
   return (
-    <div className="flex flex-col w-56 pl-[0.55rem] group relative cursor-pointer justify-center overflow-hidden">
+    <div className="flex flex-col h-[27rem] w-full pl-[0.55rem] group relative cursor-pointer justify-center overflow-hidden">
       <div className=" absolute left-2 top-1 flex gap-2 group-hover:invisible z-10">
         {promotionalPrice && <CardTag discount={discount} />}
         {inStock && <CardTagMarker />}
