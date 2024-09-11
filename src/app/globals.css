@@ -28,18 +28,73 @@
   .text5 {
     @apply text-[1.5rem] font-semibold text-text1;
   }
-}
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .text6 {
+    @apply text-3xl font-bold text-text1;
   }
+  .text7 {
+    @apply text-xs text-text4 font-[400];
+  }
+  .text8 {
+    @apply text-lg text-main1 font-extrabold
+  }
+  .text9 {
+    @apply text-xs text-text1 font-bold;
+  }
+  .text10 {
+    @apply text-sm text-text5 font-semibold;
+  }
+  .text11 {
+    @apply text-sm font-light text-text3;
+  }
+
+}
+
+
+
+* {
+  /* Define a largura da barra de rolagem */
+  scrollbar-width: thin; /* Aplica uma barra de rolagem fina */
+
+  /* Define a cor da barra de rolagem e da trilha */
+  scrollbar-color: #fff transparent; /* Barra vermelha e trilha preta */
+
+  /* Define o comportamento da barra de rolagem */
+  scrollbar-gutter: stable; /* Reserva o espaço para a barra de rolagem sempre */
+}
+
+/* Estiliza a barra de rolagem para navegadores WebKit */
+*::-webkit-scrollbar {
+  width: 20px; /* Define a largura da barra de rolagem */
+  height: 20px; /* Define a altura da barra de rolagem horizontal */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff0000; /* Define a cor da thumb da barra de rolagem */
+  border-radius: 10px; /* Arredonda as bordas da thumb */
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent; /* Define a cor da trilha da barra de rolagem */
+}
+
+/* Outras opções de personalização, caso necessário */
+*::-webkit-scrollbar-corner {
+  background-color: transparent; /* Define a cor da área onde as barras de rolagem se encontram */
+}
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+input {
+  all: unset;
+  box-sizing: border-box;
+  appearance: none;
+  outline: none;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit; /* Herda as propriedades da fonte */
 }
