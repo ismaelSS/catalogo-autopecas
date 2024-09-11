@@ -7,11 +7,11 @@ import Showcase from '@/components/showcase'
 export default function Home() {
   return (
     <main className='w-full max-w-[1580px]'>
-      <CustomHeader />
+      
       <MainBanner />
       <BrandsCarousel />
       <Showcase />
-      <PersonFooter/>
+
     </main>
   )
 }

@@ -3,7 +3,7 @@ import SocialMidiasIcon from "../socialMidiaIcons";
 
 export default function PersonFooter() {
   return(
-    <footer className="bg-main1 pt-12 pb-16 w410:p-4 flex justify-around items-center flex-wrap gap-12 w410:gap-3 ">
+    <footer className="max-w-[1580px] bg-main1 w-full pt-12 pb-16 w410:gap-8 sm:flex-row  flex justify-around items-center flex-wrap gap-12  ">
       <div>
         <h6 className="text2 mb-2 text-center w410:text-start">Social</h6>
           <ul className="flex gap-1" id="social">

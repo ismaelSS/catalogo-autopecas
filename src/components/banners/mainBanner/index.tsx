@@ -5,7 +5,7 @@ import './styles.css'
 export default function MainBanner() {
   return (
     <section className="bg-main1 p-4 flex justify-between items-center">
-      <div className="w-[40%] flex flex-col gap-3">
+      <div className="w-full sm:w-[40%] flex flex-col gap-3">
         <h1 className="text1 animate-fadeIn animate-slideInTop">
           Silva autopeças Excelência em servir você.
         </h1>
@@ -18,7 +18,7 @@ export default function MainBanner() {
 
         <BigOrderButton className="animate-slideInTop" />
       </div>
-      <div className="w-[45%] flex items-center">
+      <div className="w-[45%] hidden sm:flex items-center ">
         <Image
           src="https://cdn.autopapo.com.br/box/uploads/2018/02/06172935/1967-vw-kombi-de-volta-para-o-futuro1.png"
           alt="kombi personalizada pelo Eleen autopeças"
